@@ -24,4 +24,36 @@ A robust Flask-based Task Management API that demonstrates modern Python web dev
 - Email-Validator 1.1.3
 - Python-Magic 0.4.24
 
-## Project Structure 
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/task-manager-api.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd task-manager-api
+``` 
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+``` 
+
+4. Set up the database:
+
+```bash
+flask db init
+flask db migrate
+flask db upgrade
+``` 
+
+5. Run the development server:
+
+```bash
+flask run
+``` 
